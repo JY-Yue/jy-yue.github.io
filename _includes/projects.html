@@ -5,10 +5,16 @@
       <h5>{{ item.name }}</h5>
       <p>Advised by: {{ item.advisor }}</a></p>
       <p>{{ item.description }}</p>
+      <br>
+      <br>
     {% endfor %}
     <h3 class="fw-bold border-bottom pb-3 mb-5"> Past Projects</h3>
     {% for item in site.data.projects.past %}
-      <p><a href="{{ item.url }}">{{ item.name }}</a></p>
+      <h5>{{ item.name }}</h5>
+      <p>Advised by: {{ item.advisor }}</a></p>
+      <p>{{ item.description }}</p>
+      <br>
+      <br>
     {% endfor %}
   </div>
 </div>
