@@ -10,6 +10,7 @@
         <p>{{ item.name }}
           {% if item.url != "" %}
             <a href="{{ item.url }}"> [Link]</a>
+          {% endif %}
         </p>
       {% endfor %}
     {% endif %}
