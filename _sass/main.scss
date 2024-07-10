@@ -15,8 +15,14 @@ body {
   padding: 0
 }
 
-body a {
-  color: $linkColor
+body a, a:visited, a:active {
+  color: $linkColor;
+  font-style: normal
+}
+
+body a:hover {
+  color: $brightColor;
+  text-decoration: underline;
 }
 
 .header-bar {
