@@ -4,13 +4,13 @@
       <a href="{{ site.github.url }}/" class="d-flex align-items-center text-decoration-none">
         <span class="h2 fancy-font">{{ site.title }}</span>
       </a>
-      <a href="{{ site.github.url }}/" class="d-flex align-items-center text-decoration-none">
+      <a href="https://www.internationalphoneticalphabet.org/ipa-sounds/ipa-chart-with-sounds/" class="d-flex align-items-center text-decoration-none">
         <span class="h4">{{ site.description }}</span>
       </a>
     </div>
     <nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto">
       {% for item in site.data.settings.menu %}
-        <a class="mx-2 py-2 h4" href="{{ site.github.url }}{{ item.url }}">{{ item.name }}</a>
+        <a class="mx-2 py-2 h4 navigation-link" href="{{ site.github.url }}{{ item.url }}">{{ item.name }}</a>
       {% endfor %}
     </nav>
   </div>

@@ -11,6 +11,7 @@ body {
   background: $backgroundColor;
   color: $bodyColor;
   font-family: $bodyFont;
+  font-size: 1.2em;
   margin: 0;
   padding: 0
 }
@@ -30,6 +31,17 @@ body a:hover {
   background: $headerBackgroundColor;
   color: $bodyColor;
   font-family: $bodyFont;
+}
+
+.navigation-link a {
+  color: $brightColor;
+  font-style: normal;
+  text-decoration: none;
+}
+
+.navigation-link a:hover {
+  color: $brightColor;
+  text-decoration: underline;
 }
 
 .publication-link {
