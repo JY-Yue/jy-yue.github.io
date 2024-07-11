@@ -4,9 +4,9 @@ layout: default
 
 {{ content }}
 
-<div class="row g-5 mb-5">
+<div class="row g-5 mb-5 col-lg-6 mx-auto">
   <div>
-    <h3 class="fw-bold border-bottom pb-3 mb-5">CV (<a href="https://google.com">pdf</a>)</h3>
+    <h3 class="fancy-font border-bottom pb-3 mb-5">CV (<a href="https://google.com">pdf</a>)</h3>
     <div class="row g-5 mb-5">
       <div class="col-md-2">
         <h4>Education</h4>
@@ -16,6 +16,7 @@ layout: default
           <p class="fw-bold">{{ section.title }}</p>
           <p>{{ section.description }}</p>
           <p>Advisor: {{ section.advisors }}</p>
+          <br>
         {% endfor %}
       </div>
     </div>

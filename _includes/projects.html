@@ -1,6 +1,6 @@
-<div class="row g-5 mb-5">
+<div class="row g-5 mb-5 col-lg-6 mx-auto">
   <div>
-    <h3 class="fw-bold border-bottom pb-3 mb-5"> Current Projects</h3>
+    <h3 class="border-bottom pb-3 mb-5 fancy-font"> Current Projects</h3>
     {% for item in site.data.projects.current %}
       <h5>{{ item.name }}</h5>
       <p>Advised by: {{ item.advisor }}</a></p>
@@ -8,7 +8,7 @@
       <br>
       <br>
     {% endfor %}
-    <h3 class="fw-bold border-bottom pb-3 mb-5"> Past Projects</h3>
+    <h3 class="border-bottom pb-3 mb-5 fancy-font"> Past Projects</h3>
     {% for item in site.data.projects.past %}
       <h5>{{ item.name }}</h5>
       <p>Advised by: {{ item.advisor }}</a></p>

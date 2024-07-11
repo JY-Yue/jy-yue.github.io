@@ -43,3 +43,8 @@ body a:hover {
 .fancy-font {
   font-family: $titleFont
 }
+
+.header-bar.site-title {
+  color: $linkColor;
+  text-decoration: none
+}
