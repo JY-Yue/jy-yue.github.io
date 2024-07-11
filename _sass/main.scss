@@ -17,7 +17,8 @@ body {
 
 body a, a:visited, a:active {
   color: $linkColor;
-  font-style: normal
+  font-style: normal;
+  text-decoration: none;
 }
 
 body a:hover {
@@ -37,4 +38,8 @@ body a:hover {
 
 .section-title {
   color: $brightColor
+}
+
+.fancy-font {
+  font-family: $titleFont
 }
