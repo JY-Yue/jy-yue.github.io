@@ -10,7 +10,11 @@
     </div>
     <nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto navigation-link">
       {% for item in site.data.settings.menu %}
+        {% if page.title|lower == item.name %}
+        <a class="mx-2 py-2 h4 navigation-link" id="current-page-navigation-link" href="{{ site.github.url }}{{ item.url }}">{{ item.name }}</a>
+        {% else %}
         <a class="mx-2 py-2 h4 navigation-link" href="{{ site.github.url }}{{ item.url }}">{{ item.name }}</a>
+        {% endif %}
       {% endfor %}
     </nav>
   </div>

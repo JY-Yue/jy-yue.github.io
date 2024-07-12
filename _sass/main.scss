@@ -41,7 +41,13 @@ body a:hover {
 
 .navigation-link a:hover {
   color: $brightColor;
-  font-weight: 500;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+#current-page-navigation-link {
+  color: $brightColor;
+  text-decoration: none;
 }
 
 a.publication-link {
