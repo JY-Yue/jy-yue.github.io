@@ -34,7 +34,7 @@ body a:hover {
 }
 
 .navigation-link a {
-  color: $brightColor;
+  color: $linkColor;
   font-style: normal;
   text-decoration: none;
 }
@@ -44,7 +44,7 @@ body a:hover {
   font-weight: 500;
 }
 
-.publication-link {
+a.publication-link {
   color: $brightColor
 }
 
