@@ -41,7 +41,7 @@ body a:hover {
 
 .navigation-link a:hover {
   color: $brightColor;
-  text-decoration: underline;
+  font-weight: 500;
 }
 
 .publication-link {
@@ -56,7 +56,17 @@ body a:hover {
   font-family: $titleFont
 }
 
-.header-bar.site-title {
+// .header-bar.site-title {
+//   color: $linkColor;
+//   text-decoration: none
+// }
+
+#header-title {
+  color: $linkColor;
+  text-decoration: none
+}
+
+#header-IPA {
   color: $linkColor;
   text-decoration: none
 }
