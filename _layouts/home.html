@@ -4,7 +4,10 @@ layout: default
 
 <div class="row g-5 mb-5">
   <div class="col-md-6">
-    <img src="{{ site.github.url }}/assets/img/home.jpg" alt="Home" width="100%">
+    <figure>
+      <img src="{{ site.github.url }}/assets/img/{{ site.data.art.home.source }}" alt="{{ site.data.art.home.alt }}" width="100%">
+      <figcaption>{{ site.data.art.home.title }}, {{ site.data.art.home.year }}, {{ site.data.art.home.author }}. <a href="{{ site.data.art.home.link }}">{{ site.data.art.home.via }}</a>, {{ site.data.art.home.license }}</figcaption>
+    </figure>
   </div>
   <div class="col-md-6">
     <h3 class="fancy-font section-title">About me</h3>
