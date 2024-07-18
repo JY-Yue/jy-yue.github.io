@@ -1,12 +1,12 @@
 <div class="row g-5 mb-5">
   <div>
-    <h3 class="fancy-font border-bottom pb-3 mb-5 section-title">Contact</h3>
+    <h3 class="fancy-font border-bottom pb-3 mb-5 section-title col-lg-8 mx-auto">Contact</h3>
     {% for contact in site.data.settings.contacts %}
     <div class="row g-5 mb-5">
       <div class="col-md-6">
-        <figure class="mx-2 text-center">
-          <img src="{{ site.github.url }}/assets/img/{{ site.data.art.contact.source }}" alt="{{ site.data.art.contact.alt }}" width="90%">
-          <figcaption class="image-caption mx-3 mt-2">{{ site.data.art.contact.title }}, {{ site.data.art.contact.year }}, {{ site.data.art.contact.author }}. <a class="publication-link" href="{{ site.data.art.contact.link }}">{{ site.data.art.contact.via }}</a>, {{ site.data.art.contact.license }}</figcaption>
+        <figure class="mx-2 text-end">
+          <img src="{{ site.github.url }}/assets/img/{{ site.data.art.contact.source }}" alt="{{ site.data.art.contact.alt }}" width="70%">
+          <figcaption class="image-caption ms-5 ps-5 mt-2">{{ site.data.art.contact.title }}, {{ site.data.art.contact.year }}, {{ site.data.art.contact.author }}. <a class="publication-link" href="{{ site.data.art.contact.link }}">{{ site.data.art.contact.via }}</a>, {{ site.data.art.contact.license }}</figcaption>
         </figure>
       </div>
       <div class="col-md-6">
