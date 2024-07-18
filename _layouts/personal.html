@@ -1,0 +1,14 @@
+---
+layout: default
+---
+
+{{ content }}
+
+<div class="row g-5 mb-5">
+  <div>
+    <h3 class="fancy-font section-title pb-3 mb-5">Blog</h3>
+    {% for blog in site.blog %}
+      <p><a href="{{ site.github.url }}/{{ blog.url }}">{{ blog.title }}</a> - {{ blog.date | date: "%B %-d, %Y" }}</p>
+    {% endfor %}
+  </div>
+</div>

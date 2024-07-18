@@ -4,6 +4,7 @@ menu:
 - {name: 'Publications', url: '/publications'}
 # - {name: 'Courses', url: '/courses'}
 - {name: 'CV', url: '/cv'}
+- {name: 'Personal', url: '/personal'}
 - {name: 'Contact', url: '/contact'}
 
 
