@@ -8,6 +8,7 @@ layout: default
   <div>
     <h3 class="fancy-font section-title pb-3 mb-5">Blog</h3>
     {% for blog in site.blog %}
+      <p>{{ blog.title }}</p>
       <p><a href="{{ site.github.url }}/blog/{{ blog.url }}">{{ blog.title }}</a> - {{ blog.date | date: "%B %-d, %Y" }}</p>
     {% endfor %}
   </div>
