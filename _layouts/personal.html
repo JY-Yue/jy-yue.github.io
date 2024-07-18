@@ -7,8 +7,8 @@ layout: default
 <div class="row g-5 mb-5 col-lg-8 mx-auto">
   <div>
     <h3 class="fancy-font section-title pb-3 mb-5">Blog</h3>
-    {% for post in site.posts %}
-      <p><a href="{{ site.github.url }}/{{ post.url }}">{{ post.title }}</a> - {{ post.date | date: "%B %-d, %Y" }}</p>
+    {% for blog in site.blog %}
+      <p><a href="{{ site.github.url }}/{{ blog.url }}">{{ blog.title }}</a> - {{ blog.date | date: "%B %-d, %Y" }}</p>
     {% endfor %}
   </div>
 </div>
