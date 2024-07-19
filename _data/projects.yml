@@ -1,7 +1,7 @@
 current:
-- {name: 'Adaptation of predictive processing', advisor: 'Wing Yee Chow', description: ''}
-- {name: 'Speaker knowledge and scalar implicature', advisor: 'Richard Breheny', description: ''}
-- {name: 'Focus alternatives and island effect', advisor: 'Ming Xiang', description: ''}
+- {name: 'Adaptation of predictive processing', advisor: 'Wing Yee Chow', description: 'Using eye-tracking experiments, I study the role of speaker reliability in prediction. The goal is to examine whether listeners adapt their rate of predictive processing in the face of an unpredictable speaker that produces unexpected sentences.'}
+- {name: 'Speaker knowledge and scalar implicature', advisor: 'Richard Breheny', description: 'Expanding on existing secondary inference tasks, I investigate the speaker opinionatedness hypothesis (the epistemic step) in scalar diversity by probing primary inference. Does the speaker&#39;s knowledge state affect the rate of scalar implicature made by the listener?'}
+- {name: 'Focus alternatives and island effect', advisor: 'Ming Xiang', description: 'The discourse account of island effects attributes the unacceptability of certain long distance dependencies to the conflict of its information status. I further elaborate this &#34;conflict&#34; as a difficulty in generating the proper set of focus alternatives in interpretation.'}
 
 past:
-- {name: 'Syntax and processing of ellipsis', advisor: 'Ming Xiang and Laura Stigliano', description: ''}
+- {name: 'Syntax and processing of ellipsis', advisor: 'Ming Xiang and Laura Stigliano', description: 'Previous studies show that the processing difficulty of VP ellipsis is not affected by the complexity of the antecedent. I improve the experimental control of shallow processing and show that a more semantically elaborate antecedent facilitates VPE resolution, but the effect is mediated by plausibility. I also study the syntax of Chinese fragment questions, arguing that they arise from A-not-A questions and repair certain ungrammaticalities.'}

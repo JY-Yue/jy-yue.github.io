@@ -2,13 +2,16 @@
 layout: default
 ---
 
-{{ content }}
-
 <div class="row g-5 mb-5 col-lg-8 mx-auto">
   <div>
-    <h3 class="fancy-font section-title pb-3 mb-5">Blog</h3>
+    <h3 class="fancy-font section-title pb-3 mb-2">Blog</h3>
+    {{ content }}
+  </div>
+  <div>
+    <h3 class="fancy-font section-title pb-3 mb-2">Blog</h3>
     {% for post in site.tags.blog %}
-      <p><a href="{{ site.github.url }}/{{ post.url }}">{{ post.title }}</a> - {{ post.date | date: "%B %-d, %Y" }}</p>
+      <h5><a class="mt-2 blog-link" href="{{ site.github.url }}/{{ post.url }}">{{ post.title }}</a> - {{ post.date | date: "%B %-d, %Y" }}</h5>
+      <p>{{ post.excerpt }}</p>
     {% endfor %}
   </div>
 </div>
