@@ -1,5 +1,8 @@
 home: {source: 'Edward Collier Trompe lOeil.jpg', alt: 'Edward Collier', title: 'A Trompe l&#39;Oeil of Newspapers, Letters and Writing Implements on a Wooden Board', author: 'Edward Collier', year: '1699', via: 'Tate', link: 'https://www.tate.org.uk/art/artworks/collier-a-trompe-loeil-of-newspapers-letters-and-writing-implements-on-a-wooden-board-t03853', license: 'CC BY-NC-ND 4.0 DEED'}
 
+personal:
+- {source: 'Coffee flair.jpg', alt: 'Coffee', title: 'Making espresso manually with Flair NEO', author: '', year: '', via: '', link: '', license: ''}
+
 contact: {source: 'Pieter Bruegel Tower of Babel.jpg', alt: 'The Tower of Babel (Vienna)', title: 'The Tower of Babel (Vienna)', author: 'Pieter Bruegel the Elder', year: '1563', via: 'Wikimedia Commons', link: 'https://commons.wikimedia.org/wiki/File:Pieter_Bruegel_the_Elder_-_The_Tower_of_Babel_(Vienna)_-_Google_Art_Project_-_edited.jpg', license: 'Public Domain'}
 
 archive:
