@@ -1,6 +1,6 @@
-<header class="header-bar p-3 py-md-5">
+<header class="header-bar p-3 py-md-4">
   <div class="col-lg-8 mx-auto d-flex flex-column flex-md-row align-items-center">
-    <div>
+    <div class="mx-2 my-2 pt-2">
       <a href="{{ site.github.url }}/" class="d-flex align-items-center text-decoration-none">
         <span class="h2 fancy-font" id="header-title">{{ site.title }}</span>
       </a>
@@ -8,12 +8,12 @@
         <span class="h4" id="header-IPA">{{ site.description }}</span>
       </a>
     </div>
-    <nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto navigation-link">
+    <nav class="d-inline-flex flex-wrap justify-content-center mt-1 mt-md-0 ms-md-auto navigation-link">
       {% for item in site.data.settings.menu %}
         {% if page.title != item.name %}
-          <a class="mx-2 py-2 h4 navigation-link" href="{{ site.github.url }}{{ item.url }}">{{ item.name }}</a>
+          <a class="mx-2 py-0 h4 navigation-link" href="{{ site.github.url }}{{ item.url }}">{{ item.name }}</a>
         {% else %}
-          <a class="mx-2 py-2 h4 navigation-link" id="current-page-navigation-link" href="{{ site.github.url }}{{ item.url }}">{{ item.name }}</a>
+          <a class="mx-2 py-0 h4 navigation-link" id="current-page-navigation-link" href="{{ site.github.url }}{{ item.url }}">{{ item.name }}</a>
         {% endif %}
       {% endfor %}
     </nav>
