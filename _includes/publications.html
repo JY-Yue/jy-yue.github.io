@@ -1,16 +1,33 @@
 <div class="row g-5 mb-5">
   <div>
-    <h3 class="border-bottom pb-3 mb-5 fancy-font section-title">Publications</h3>
+    <h3 class="border-bottom pb-3 mb-5 fancy-font section-title">Papers</h3>
     {% if page.title == "Home" %}
       {% for item in site.data.publications.featured %}
         <p><a href="{{ item.url }}">{{ item.name }}</a></p>
       {% endfor %}
     {% else %}
-      {% for item in site.data.publications.index %}
+      {% for item in site.data.publications.papers %}
         <p>{{ item.name }}
           {% if item.url != "" %}
             <span>
             <a href="{{ item.url }}" class="publication-link"> [Link]</a>
+            </span>
+          {% endif %}
+        </p>
+      {% endfor %}
+    {% endif %}
+
+    <h3 class="border-bottom pb-3 mb-5 fancy-font section-title">Presentations</h3>
+    {% if page.title == "Home" %}
+      {% for item in site.data.publications.featured %}
+        <p><a href="{{ item.url }}">{{ item.name }}</a></p>
+      {% endfor %}
+    {% else %}
+      {% for item in site.data.publications.presentations %}
+        <p>{{ item.author }}. {{ item.year }}. {{ item.title }}. {{ item.conference }}. {{ item.location }}
+          {% if item.poster != "" %}
+            <span>
+            <a href="{{ site.github.url }}/assets/output/{{ item.poster }}" class="publication-link"> [Poster]</a>
             </span>
           {% endif %}
         </p>

@@ -1,7 +1,11 @@
 featured:
 
 
-index:
-- {name: '<b>Yue, Jiayuan</b> & Ming Xiang. 2024. The argument-adjunct asymmetry revisited: The role of focus alternatives in island effect. In L. Clemens, V. Gribanova & G. Scontras (eds.), <i>Syntax in Uncharted Territories: Essays in Honor of Maria Polinsky</i>.', url: ''}
+papers:
+- {name: '<b>Yue, Jiayuan</b> & Ming Xiang. 2024. The argument-adjunct asymmetry revisited: The role of focus alternatives in island effect. In L. Clemens, V. Gribanova & G. Scontras (eds.), <i>Syntax in Uncharted Territories: Essays in Honor of Maria Polinsky</i>.', url: 'https://doi.org/10.7280/S9XD0ZQP'}
 - {name: '<b>Yue, Jiayuan</b> & Ming Xiang. 2024. Detecting the effects of antecedent complexity on VPE resolution. In <i>Proceedings of the 47th Annual Penn Linguistics Conference</i>.', url: 'https://repository.upenn.edu/handle/20.500.14332/59854'}
-- {name: '<b>Yue, Jiayuan</b>. 2022. Fragment questions in Mandarin Chinese arise from and repair A-not-A questions. Presented at PLC 46.', url: ''}
+
+presentations:
+- {author: '<b>Yue, Jiayuan</b> & Wing Yee Chow', year: '2025', title: '', conference: 'Poster at HSP 2025', location: 'College Park MD', poster: 'Yue_Chow_HSP2025_Poster.pdf'}
+- {author: '<b>Yue, Jiayuan</b> & Ming Xiang', year: '2023', title: 'Detecting the effects of antecedent complexity on VPE resolution: Effects of semantic plausibility', conference: 'Poster at HSP 2023 & Talk at PLC 47', location: 'Pittsburgh & Philadelphia PA', poster: ''}
+- {author: '<b>Yue, Jiayuan</b>', year: '2022', title: 'Fragment questions in Mandarin Chinese arise from and repair A-not-A questions', conference: 'Talk at PLC 46 Undergraduate Session', location: 'Online', poster: ''}
