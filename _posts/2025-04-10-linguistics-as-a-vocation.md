@@ -4,7 +4,7 @@ title: "Linguistics as a Vocation"
 tag: blog
 ---
 
-A parody of Max Weber's "Science as a Vocation", and a speculation of the future of linguistics as a Weberian science.
+A discussion of Max Weber's "Science as a Vocation", and a speculation of the future of linguistics as a Weberian science.
 
 I accepted the offer from the University of Toronto during an academic conference. The day after my acceptance, the conference hosted a social event at the Planet Word Museum in DC, a museum promoting linguistic diversity and communicating fun linguistic concepts to the general public. It brought back memories from early 2020, when I was a first-year in college with an emerging interest in linguistics. The museum was just opening up back then, and I inquired about volunteering opportunities for my first-year summer. The volunteering was put on hold indefinitely due to COVID. The pandemic drew a deep line of division in my perception of time, so this memory felt particularly distant. I was pleasantly surprised when I heard about this social event during the conference - almost an invitation to complete an unfinished business from five years ago, to reconnect with my pre-COVID self. The museum was enjoyable. Later I learned that, on that same day in the afternoon about 4km south of the museum, a Delta A319 taking off from Washington DC Airport narrowly avoided colliding with a military plane a few hundred feet below, seconds away from repeating the tragedy two months ago at the exact same airport which took 67 lives.
 

@@ -2,7 +2,12 @@
 layout: post
 title: "Jiayuan Yue, Author of \"Syntactic Structures\""
 tag: blog
+excerpt_separator: <!--more-->
 ---
+
+A parody of Borges' "Pierre Menard, Author of the Quixote"
+
+<!--more-->
 
 The visible output left by this linguist can be easily and briefly enumerated; unpardonable, therefore, are the omissions and additions perpetrated by an unknown web administrator in a deceitful catalog that a certain [website](https://jy-yue.github.io) has inflicted upon its gullible readers - few and indifferent though they be. Yue's true friends have greeted that catalog with alarm, and even with a degree of sadness. One might note that only yesterday were we gathered before his marmoreal place of rest, and already Error is attempting to tarnish his bright Memory... Most decidely, a brief rectification is imperative.
 
