@@ -2,10 +2,9 @@
 layout: post
 title: "Research Interest Statement Archive"
 tag: blog
-excerpt_separator: <!--more-->
 ---
 
-The description of my research interests on my homepage often changes, sometimes drastically. Instead of deleting outdated one, I'm keeping them here as a record of my academic trajectory.
+The description of my research interests on my homepage often changes, sometimes drastically. Instead of deleting outdated ones, I'm keeping them here as a record of my academic trajectory.
 
 
 07/2024 - 10/2026:
